@@ -618,6 +618,10 @@ head {
      position: relative;
   }
 
+  .modal-field-textarea {
+     margin-bottom: 16px;
+  }
+
   .modal-field {
      margin-bottom: 8px;
   }
