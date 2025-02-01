@@ -719,6 +719,7 @@ head {
 
   .privacy-link {
    color: #4d5ae5;
+   text-decoration: underline;
   }
 
   .form-submit {
