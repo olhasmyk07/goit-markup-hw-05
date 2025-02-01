@@ -184,15 +184,12 @@ head {
      cursor: pointer;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
- .btn:hover {
-   background-color: #404BBF;
-}
-
+ .btn:hover,
  .btn:focus {
    background-color: #404BBF;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
- 
  .benefits {
    padding: 120px 0;
 }
@@ -523,6 +520,8 @@ head {
   .submit-footer-button:hover,
   .submit-footer-button:focus {
      background-color: #404bbf;
+     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
   }
 
   .icon-send {
@@ -670,7 +669,6 @@ head {
      border: 1px solid rgba(46, 47, 66, 0.4);
      border-radius: 4px;
      padding: 8px 16px;
-     ;
      outline: transparent;
      resize: none;
      font-size: 12px;
@@ -741,7 +739,8 @@ head {
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .modal-button:hover,
-  .modal-button:focus {
-     background-color: #404bbf;
+  .form-submit:hover,
+  .form-submit:focus {
+   background-color: #404BBF;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   }
